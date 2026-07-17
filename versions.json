@@ -1,17 +1,21 @@
 {
   "project": "Pathway Living Map",
-  "publishedAt": "2026-07-17T09:25:00+02:00",
+  "publishedAt": "2026-07-17T14:22:15+02:00",
   "versions": {
     "web": {
       "path": "/index.html",
-      "sha256": "c6317a1fccf3bc7bd0dbb30f93ff0e815f321b1670afecd95dcc7ec65e85118c"
+      "sha256": "95f9624cdd7293f4abbad2e6ee73b958bc2ed282229112638e8a815d8284c74f"
     },
     "offline": {
       "path": "/offline/Pathway_Implementation_Masterplan.html",
       "download": "/offline/Pathway_Implementation_Masterplan_OFFLINE.zip",
-      "sha256": "c6317a1fccf3bc7bd0dbb30f93ff0e815f321b1670afecd95dcc7ec65e85118c"
+      "sha256": "95f9624cdd7293f4abbad2e6ee73b958bc2ed282229112638e8a815d8284c74f"
     },
     "previous": {
+      "path": "/archive/Pathway_Implementation_Masterplan_before_toc_and_budget_fix.html",
+      "sha256": "c6317a1fccf3bc7bd0dbb30f93ff0e815f321b1670afecd95dcc7ec65e85118c"
+    },
+    "beforeAlignment": {
       "path": "/archive/Pathway_Implementation_Masterplan_before_alignment_polish.html",
       "sha256": "c19869da6aa336c5ef05dfc000a393d9a0212ec71629f9f3595eeac7fddadb4b"
     },
