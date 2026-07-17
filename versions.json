@@ -1,17 +1,23 @@
 {
   "project": "Pathway Living Map",
-  "publishedAt": "2026-07-17T14:22:15+02:00",
+  "publishedAt": "2026-07-17T16:02:45+02:00",
   "versions": {
     "web": {
       "path": "/index.html",
-      "sha256": "95f9624cdd7293f4abbad2e6ee73b958bc2ed282229112638e8a815d8284c74f"
+      "sha256": "cd36be157b9476a6d8baae8b549a0fcabcd8c3b36a523cadd9e3151c7627ceb2",
+      "assets": "/assets/asset-manifest.json"
     },
     "offline": {
       "path": "/offline/Pathway_Implementation_Masterplan.html",
       "download": "/offline/Pathway_Implementation_Masterplan_OFFLINE.zip",
-      "sha256": "95f9624cdd7293f4abbad2e6ee73b958bc2ed282229112638e8a815d8284c74f"
+      "sha256": "b2bdfba5641f34ed64f2c8243c7a41cb5cd29581fb38c30b64b2e2f15e0a66d9",
+      "downloadSha256": "d0821ab7f1d69ecea838c24e4ffc4252803c8553750adfd51c01a8d8491fee65"
     },
     "previous": {
+      "path": "/archive/2026-07-17-before-founder-brief/Pathway_Implementation_Masterplan.html",
+      "sha256": "95f9624cdd7293f4abbad2e6ee73b958bc2ed282229112638e8a815d8284c74f"
+    },
+    "beforeTocAndBudgetFix": {
       "path": "/archive/Pathway_Implementation_Masterplan_before_toc_and_budget_fix.html",
       "sha256": "c6317a1fccf3bc7bd0dbb30f93ff0e815f321b1670afecd95dcc7ec65e85118c"
     },

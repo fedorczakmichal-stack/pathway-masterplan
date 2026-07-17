@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-07-17T16:02:45+02:00",
+  "source": "/offline/Pathway_Implementation_Masterplan.html",
+  "assets": [
+    {
+      "filename": "6219bc4bfdfc5d9b2201.woff2",
+      "mime": "font/woff2",
+      "bytes": 29904,
+      "sha256": "6219bc4bfdfc5d9b2201dcdf046218b122a758f932e25ed5f168f929b7ca2311"
+    },
+    {
+      "filename": "01817351be3edfc1714f.woff2",
+      "mime": "font/woff2",
+      "bytes": 131848,
+      "sha256": "01817351be3edfc1714fe6d60ddea6a22a169a5ebd033b50c7f9495e5d9c386a"
+    },
+    {
+      "filename": "e507eb37a4d16971ce60.jpg",
+      "mime": "image/jpeg",
+      "bytes": 37835,
+      "sha256": "e507eb37a4d16971ce6083a3a42b937820e45e228d5bd9615024c4b89d51940b"
+    },
+    {
+      "filename": "643698baa92471eb1d09.png",
+      "mime": "image/png",
+      "bytes": 551286,
+      "sha256": "643698baa92471eb1d0916534566f543eae56a3f7fd2344e4a1f96160154d052"
+    }
+  ]
+}
