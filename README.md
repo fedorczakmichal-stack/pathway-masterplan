@@ -10,9 +10,7 @@ Publiczna, stała wersja planu wdrożenia Pathway do udostępniania i wspólnego
 - `archive/Pathway_Implementation_Masterplan_before_alignment_polish.html` — wersja bezpośrednio sprzed ostatnich poprawek wyrównania.
 - `archive/Pathway_Implementation_Masterplan_Seasons_Backup.html` — archiwum wcześniejszej koncepcji Seasons.
 
-Źródłem aktualnej publikacji jest lokalny plik:
-
-`/Users/fedor/Downloads/Pathway_Implementation_Masterplan.html`
+Źródłem publikacji jest zatwierdzony, samodzielny plik HTML. Wersje WEB i offline muszą pozostać identyczne bajt w bajt.
 
 ## Kontrola zgodności
 
