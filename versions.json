@@ -1,19 +1,23 @@
 {
   "project": "Pathway Living Map",
-  "publishedAt": "2026-07-17T17:23:29+02:00",
+  "publishedAt": "2026-07-17T18:03:57+02:00",
   "versions": {
     "web": {
       "path": "/index.html",
-      "sha256": "13d5489c2d1c4d77da3262ead921f18ed87e3509e2ceda0972b073be527be506",
+      "sha256": "a4714e059994c9887a4dc5eda08a0dc1cfddf845cc64027e63aa379928a1025b",
       "assets": "/assets/asset-manifest.json"
     },
     "offline": {
       "path": "/offline/Pathway_Implementation_Masterplan.html",
       "download": "/offline/Pathway_Implementation_Masterplan_OFFLINE.zip",
-      "sha256": "c9850cdb8554edb331ae6fb686f2076a8ea340d163bb3c092f6d7928306a538b",
-      "downloadSha256": "e38bd53f6e475a57b6733f7a64a3cbb0800e34d0e9ca8225ca59b22356fc0752"
+      "sha256": "a894008efb5d76d1e8d0c4ca646db4fe76407ee4a3563ef9ebd3d09d5df8a98c",
+      "downloadSha256": "ab1f4f7a40d4f9eaf29713fa85925263eefb8295fb703a44d5ff5c2c13f93dc2"
     },
     "previous": {
+      "path": "/archive/2026-07-17-before-table-padding-fix/Pathway_Implementation_Masterplan.html",
+      "sha256": "c9850cdb8554edb331ae6fb686f2076a8ea340d163bb3c092f6d7928306a538b"
+    },
+    "beforeMobileMetricFix": {
       "path": "/archive/2026-07-17-before-mobile-metric-fix/Pathway_Implementation_Masterplan.html",
       "sha256": "b2bdfba5641f34ed64f2c8243c7a41cb5cd29581fb38c30b64b2e2f15e0a66d9"
     },

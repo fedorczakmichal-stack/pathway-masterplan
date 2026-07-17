@@ -9,6 +9,7 @@ Strona: https://fedorczakmichal-stack.github.io/pathway-masterplan/
 - `index.html` + `assets/` — aktualna, odchudzona wersja WEB.
 - `offline/Pathway_Implementation_Masterplan.html` — aktualna, w pełni samodzielna wersja offline.
 - `offline/Pathway_Implementation_Masterplan_OFFLINE.zip` — wersja offline do pobrania.
+- `archive/2026-07-17-before-table-padding-fix/Pathway_Implementation_Masterplan.html` — wersja bezpośrednio sprzed poprawy odstępów w tabelach i polach kosztowych.
 - `archive/2026-07-17-before-mobile-metric-fix/Pathway_Implementation_Masterplan.html` — wersja bezpośrednio sprzed poprawy mobilnych kart budżetowych.
 - `archive/2026-07-17-before-founder-brief/Pathway_Implementation_Masterplan.html` — wersja bezpośrednio sprzed Founder Brief, dokładnego budżetu, sześciu ekranów MVP i nowych bramek decyzyjnych.
 - `archive/Pathway_Implementation_Masterplan_before_toc_and_budget_fix.html` — wersja bezpośrednio sprzed naprawy spisu treści i przebudowy budżetu founder-led.
@@ -19,9 +20,10 @@ Wersje WEB i offline pokazują tę samą treść. WEB ładuje obrazy i fonty z k
 
 ## Kontrola zgodności
 
-- aktualna WEB: `13d5489c2d1c4d77da3262ead921f18ed87e3509e2ceda0972b073be527be506`
-- aktualna offline: `c9850cdb8554edb331ae6fb686f2076a8ea340d163bb3c092f6d7928306a538b`
-- ZIP offline: `e38bd53f6e475a57b6733f7a64a3cbb0800e34d0e9ca8225ca59b22356fc0752`
+- aktualna WEB: `a4714e059994c9887a4dc5eda08a0dc1cfddf845cc64027e63aa379928a1025b`
+- aktualna offline: `a894008efb5d76d1e8d0c4ca646db4fe76407ee4a3563ef9ebd3d09d5df8a98c`
+- ZIP offline: `ab1f4f7a40d4f9eaf29713fa85925263eefb8295fb703a44d5ff5c2c13f93dc2`
+- wersja sprzed poprawy odstępów w tabelach: `c9850cdb8554edb331ae6fb686f2076a8ea340d163bb3c092f6d7928306a538b`
 - wersja sprzed poprawy mobilnych kart budżetowych: `b2bdfba5641f34ed64f2c8243c7a41cb5cd29581fb38c30b64b2e2f15e0a66d9`
 - wersja sprzed Founder Brief: `95f9624cdd7293f4abbad2e6ee73b958bc2ed282229112638e8a815d8284c74f`
 - wersja sprzed naprawy spisu i budżetu: `c6317a1fccf3bc7bd0dbb30f93ff0e815f321b1670afecd95dcc7ec65e85118c`
@@ -33,6 +35,8 @@ Wersje WEB i offline pokazują tę samą treść. WEB ładuje obrazy i fonty z k
 - 64 bloki, 28 tabel, 8 wykresów i 3 karty metryk zgodne z modelem źródłowym.
 - karty budżetowe sprawdzone w widokach 320, 375, 390, 430 i 1440 px;
 - pełne etykiety i kwoty bez wielokropków, przycięć i nakładania na sąsiednie linie;
+- wszystkie 28 nagłówków tabel ma jednakowy odstęp od ramki: 16 px na mobile i 24 px na desktopie;
+- długie tytuły tabel nie nachodzą na przycisk menu;
 - 18 stabilnych odnośników spisu treści, obsługa cofania/do przodu i aktywna sekcja;
 - brak poziomego przepełnienia strony mobilnej;
 - pełna sekcja źródeł i obsługa klawiatury zachowane.
