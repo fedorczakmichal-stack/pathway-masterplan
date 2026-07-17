@@ -21,9 +21,9 @@ Wersje WEB i offline pokazują tę samą treść. WEB ładuje obrazy i fonty z k
 
 ## Kontrola zgodności
 
-- aktualna WEB: `5025f25f71cf47c7c7f50d2730d11e17040e7ede20b43d408281bf6044191b35`
-- aktualna offline: `d847d77ba2d8ccc3e9ca0b6d61f97c9c63cf9db4b5eeee8415e356863d2c4a36`
-- ZIP offline: `24061de3799c0de0c86ad9f7b825f25db64b537b68d50b6cef77b89ed4ffa283`
+- aktualna WEB: `dca59a216dd0f26fb50211b04bf3946aaa209869f5559c0dd82e6feafa54f884`
+- aktualna offline: `9f215ac0ee25d734af09b1d4696cccfafd294de5dddc816e9064ae81926b27b4`
+- ZIP offline: `2e222d62f1a69eaf0a63008346dc5b0b92b884c285ce4bc84f81f6b98a6e0831`
 - wersja sprzed przeliczenia Claude Max i QA: `a894008efb5d76d1e8d0c4ca646db4fe76407ee4a3563ef9ebd3d09d5df8a98c`
 - wersja sprzed poprawy odstępów w tabelach: `c9850cdb8554edb331ae6fb686f2076a8ea340d163bb3c092f6d7928306a538b`
 - wersja sprzed poprawy mobilnych kart budżetowych: `b2bdfba5641f34ed64f2c8243c7a41cb5cd29581fb38c30b64b2e2f15e0a66d9`
@@ -40,6 +40,7 @@ Wersje WEB i offline pokazują tę samą treść. WEB ładuje obrazy i fonty z k
 - wszystkie 28 nagłówków tabel ma jednakowy odstęp od ramki: 16 px na mobile i 24 px na desktopie;
 - długie tytuły tabel nie nachodzą na przycisk menu;
 - 18 stabilnych odnośników spisu treści, obsługa cofania/do przodu i aktywna sekcja;
+- aktywna pozycja spisu ma jasny tekst, delikatne złote tło i stały lewy marker, dzięki czemu pozostaje czytelna podczas przewijania;
 - bezpośrednie adresy z `#`, skróty Founder Brief i boczny spis wskazują tę samą widoczną sekcję także po przełączeniu pełnego czytnika;
 - brak poziomego przepełnienia strony mobilnej;
 - kwoty sprawdzone w źródle, kartach, wykresach i tabelach: 360 USD teraz, 1,5 tys. USD pełnej Walidacji V1, 9,8 tys. USD planu i 11,3 tys. USD koperty z rezerwą;
