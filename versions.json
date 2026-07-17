@@ -1,17 +1,21 @@
 {
   "project": "Pathway Living Map",
-  "publishedAt": "2026-07-17T18:03:57+02:00",
+  "publishedAt": "2026-07-17T20:43:32+02:00",
   "versions": {
     "web": {
       "path": "/index.html",
-      "sha256": "a4714e059994c9887a4dc5eda08a0dc1cfddf845cc64027e63aa379928a1025b",
+      "sha256": "5025f25f71cf47c7c7f50d2730d11e17040e7ede20b43d408281bf6044191b35",
       "assets": "/assets/asset-manifest.json"
     },
     "offline": {
       "path": "/offline/Pathway_Implementation_Masterplan.html",
       "download": "/offline/Pathway_Implementation_Masterplan_OFFLINE.zip",
-      "sha256": "a894008efb5d76d1e8d0c4ca646db4fe76407ee4a3563ef9ebd3d09d5df8a98c",
-      "downloadSha256": "ab1f4f7a40d4f9eaf29713fa85925263eefb8295fb703a44d5ff5c2c13f93dc2"
+      "sha256": "d847d77ba2d8ccc3e9ca0b6d61f97c9c63cf9db4b5eeee8415e356863d2c4a36",
+      "downloadSha256": "24061de3799c0de0c86ad9f7b825f25db64b537b68d50b6cef77b89ed4ffa283"
+    },
+    "beforeClaudeMaxBudget": {
+      "path": "/archive/2026-07-17-before-claude-max-budget/Pathway_Implementation_Masterplan.html",
+      "sha256": "a894008efb5d76d1e8d0c4ca646db4fe76407ee4a3563ef9ebd3d09d5df8a98c"
     },
     "previous": {
       "path": "/archive/2026-07-17-before-table-padding-fix/Pathway_Implementation_Masterplan.html",

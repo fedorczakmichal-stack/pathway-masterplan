@@ -9,6 +9,7 @@ Strona: https://fedorczakmichal-stack.github.io/pathway-masterplan/
 - `index.html` + `assets/` — aktualna, odchudzona wersja WEB.
 - `offline/Pathway_Implementation_Masterplan.html` — aktualna, w pełni samodzielna wersja offline.
 - `offline/Pathway_Implementation_Masterplan_OFFLINE.zip` — wersja offline do pobrania.
+- `archive/2026-07-17-before-claude-max-budget/Pathway_Implementation_Masterplan.html` — wersja bezpośrednio sprzed przeliczenia całego planu pod Claude Max 5x + Claude Pro i szczegółowe pakiety QA.
 - `archive/2026-07-17-before-table-padding-fix/Pathway_Implementation_Masterplan.html` — wersja bezpośrednio sprzed poprawy odstępów w tabelach i polach kosztowych.
 - `archive/2026-07-17-before-mobile-metric-fix/Pathway_Implementation_Masterplan.html` — wersja bezpośrednio sprzed poprawy mobilnych kart budżetowych.
 - `archive/2026-07-17-before-founder-brief/Pathway_Implementation_Masterplan.html` — wersja bezpośrednio sprzed Founder Brief, dokładnego budżetu, sześciu ekranów MVP i nowych bramek decyzyjnych.
@@ -20,9 +21,10 @@ Wersje WEB i offline pokazują tę samą treść. WEB ładuje obrazy i fonty z k
 
 ## Kontrola zgodności
 
-- aktualna WEB: `a4714e059994c9887a4dc5eda08a0dc1cfddf845cc64027e63aa379928a1025b`
-- aktualna offline: `a894008efb5d76d1e8d0c4ca646db4fe76407ee4a3563ef9ebd3d09d5df8a98c`
-- ZIP offline: `ab1f4f7a40d4f9eaf29713fa85925263eefb8295fb703a44d5ff5c2c13f93dc2`
+- aktualna WEB: `5025f25f71cf47c7c7f50d2730d11e17040e7ede20b43d408281bf6044191b35`
+- aktualna offline: `d847d77ba2d8ccc3e9ca0b6d61f97c9c63cf9db4b5eeee8415e356863d2c4a36`
+- ZIP offline: `24061de3799c0de0c86ad9f7b825f25db64b537b68d50b6cef77b89ed4ffa283`
+- wersja sprzed przeliczenia Claude Max i QA: `a894008efb5d76d1e8d0c4ca646db4fe76407ee4a3563ef9ebd3d09d5df8a98c`
 - wersja sprzed poprawy odstępów w tabelach: `c9850cdb8554edb331ae6fb686f2076a8ea340d163bb3c092f6d7928306a538b`
 - wersja sprzed poprawy mobilnych kart budżetowych: `b2bdfba5641f34ed64f2c8243c7a41cb5cd29581fb38c30b64b2e2f15e0a66d9`
 - wersja sprzed Founder Brief: `95f9624cdd7293f4abbad2e6ee73b958bc2ed282229112638e8a815d8284c74f`
@@ -38,5 +40,8 @@ Wersje WEB i offline pokazują tę samą treść. WEB ładuje obrazy i fonty z k
 - wszystkie 28 nagłówków tabel ma jednakowy odstęp od ramki: 16 px na mobile i 24 px na desktopie;
 - długie tytuły tabel nie nachodzą na przycisk menu;
 - 18 stabilnych odnośników spisu treści, obsługa cofania/do przodu i aktywna sekcja;
+- bezpośrednie adresy z `#`, skróty Founder Brief i boczny spis wskazują tę samą widoczną sekcję także po przełączeniu pełnego czytnika;
 - brak poziomego przepełnienia strony mobilnej;
+- kwoty sprawdzone w źródle, kartach, wykresach i tabelach: 360 USD teraz, 1,5 tys. USD pełnej Walidacji V1, 9,8 tys. USD planu i 11,3 tys. USD koperty z rezerwą;
+- Claude Max 5x (1 200 USD/rok w przeliczeniu) i Claude Pro (200 USD/rok) są jawnie wliczone, a QA rozdzielono na pakiet alfy 300 USD i pakiet bety z retestem 700 USD;
 - pełna sekcja źródeł i obsługa klawiatury zachowane.
