@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-17T19:17:43.409Z",
-  "source": "/Users/fedor/Desktop/Finanse/pathway-original-revision/candidate-user-renders.html",
+  "generatedAt": "2026-07-19T20:30:00.000Z",
+  "source": "offline/Pathway_Implementation_Masterplan.html",
   "assets": [
     {
       "filename": "6219bc4bfdfc5d9b2201.woff2",
@@ -21,10 +21,58 @@
       "sha256": "e507eb37a4d16971ce6083a3a42b937820e45e228d5bd9615024c4b89d51940b"
     },
     {
-      "filename": "643698baa92471eb1d09.png",
-      "mime": "image/png",
-      "bytes": 551286,
-      "sha256": "643698baa92471eb1d0916534566f543eae56a3f7fd2344e4a1f96160154d052"
+      "filename": "241be19d345925c93f82.jpg",
+      "mime": "image/jpeg",
+      "bytes": 173017,
+      "sha256": "241be19d345925c93f828514cb4b80c61622895af06b2e2be1c712c4651dd67b"
+    },
+    {
+      "filename": "0f55ec7c4b3e65feef4c.jpg",
+      "mime": "image/jpeg",
+      "bytes": 91072,
+      "sha256": "0f55ec7c4b3e65feef4cce467e64eb13c1c53385e2318732af49f01fdb6db16b"
+    },
+    {
+      "filename": "a250beacf798e1c1fb49.jpg",
+      "mime": "image/jpeg",
+      "bytes": 92802,
+      "sha256": "a250beacf798e1c1fb498fd6b02d7f03af2ff9c25b633be515ac4ad06a42f78b"
+    },
+    {
+      "filename": "28438d3e9a2f4fe8091c.jpg",
+      "mime": "image/jpeg",
+      "bytes": 66468,
+      "sha256": "28438d3e9a2f4fe8091c9085ecef4a2f4a838650bc4c115b3674f1665a269905"
+    },
+    {
+      "filename": "5e2d561ac892e09f3399.jpg",
+      "mime": "image/jpeg",
+      "bytes": 55683,
+      "sha256": "5e2d561ac892e09f3399816f47b6760280ff833e99f31408440fc3ac71b9cc12"
+    },
+    {
+      "filename": "2da7a3adf4bedd6e79a2.jpg",
+      "mime": "image/jpeg",
+      "bytes": 61973,
+      "sha256": "2da7a3adf4bedd6e79a2359931ac6d20de30225f50e0e6e3d1c1a1ed51f29729"
+    },
+    {
+      "filename": "1d51717abbf169d52d43.jpg",
+      "mime": "image/jpeg",
+      "bytes": 69699,
+      "sha256": "1d51717abbf169d52d436dad745b8820526797c9b75c2e173b395ac9738d458e"
+    },
+    {
+      "filename": "79caac7de9721f634328.jpg",
+      "mime": "image/jpeg",
+      "bytes": 57970,
+      "sha256": "79caac7de9721f634328e015a74667c54aef523773e963c9c85a2857104a67fc"
+    },
+    {
+      "filename": "c47115e3fa1254cf87ad.jpg",
+      "mime": "image/jpeg",
+      "bytes": 56379,
+      "sha256": "c47115e3fa1254cf87adc2af55dfd8d260d0a2d7d5f3c8aeebc6402fbd873e49"
     }
   ]
 }

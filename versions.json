@@ -1,17 +1,39 @@
 {
   "project": "Pathway Living Map",
-  "publishedAt": "2026-07-17T21:25:06+02:00",
+  "publishedAt": "2026-07-19T22:30:00+02:00",
   "versions": {
     "web": {
       "path": "/index.html",
-      "sha256": "dca59a216dd0f26fb50211b04bf3946aaa209869f5559c0dd82e6feafa54f884",
-      "assets": "/assets/asset-manifest.json"
+      "sha256": "15142694678c8a7cfe2ab7c2b6f182a87a0331cc83f4df63944d98752f47159d",
+      "assets": "/assets/asset-manifest.json",
+      "manifestSha256": "8504d22e96c692bd1f11fdfd042626fb401bcc5900df469479395734d7fd8a1a",
+      "assetCount": 12
     },
     "offline": {
       "path": "/offline/Pathway_Implementation_Masterplan.html",
       "download": "/offline/Pathway_Implementation_Masterplan_OFFLINE.zip",
-      "sha256": "9f215ac0ee25d734af09b1d4696cccfafd294de5dddc816e9064ae81926b27b4",
-      "downloadSha256": "2e222d62f1a69eaf0a63008346dc5b0b92b884c285ce4bc84f81f6b98a6e0831"
+      "sha256": "ce1f875a5d0ff31a6f2b7dd8c3c976411b5e5a3140292d46127f0359ebc45c17",
+      "downloadSha256": "9b69be47bb212d35dec077113b6b76b33127e925db7baac7e4ea68706f80fbcd"
+    },
+    "currentProductVisuals": {
+      "hero": {
+        "path": "/assets/241be19d345925c93f82.jpg",
+        "sha256": "241be19d345925c93f828514cb4b80c61622895af06b2e2be1c712c4651dd67b"
+      },
+      "screens390x844": [
+        { "path": "/assets/0f55ec7c4b3e65feef4c.jpg", "sha256": "0f55ec7c4b3e65feef4cce467e64eb13c1c53385e2318732af49f01fdb6db16b" },
+        { "path": "/assets/a250beacf798e1c1fb49.jpg", "sha256": "a250beacf798e1c1fb498fd6b02d7f03af2ff9c25b633be515ac4ad06a42f78b" },
+        { "path": "/assets/28438d3e9a2f4fe8091c.jpg", "sha256": "28438d3e9a2f4fe8091c9085ecef4a2f4a838650bc4c115b3674f1665a269905" },
+        { "path": "/assets/5e2d561ac892e09f3399.jpg", "sha256": "5e2d561ac892e09f3399816f47b6760280ff833e99f31408440fc3ac71b9cc12" },
+        { "path": "/assets/2da7a3adf4bedd6e79a2.jpg", "sha256": "2da7a3adf4bedd6e79a2359931ac6d20de30225f50e0e6e3d1c1a1ed51f29729" },
+        { "path": "/assets/1d51717abbf169d52d43.jpg", "sha256": "1d51717abbf169d52d436dad745b8820526797c9b75c2e173b395ac9738d458e" },
+        { "path": "/assets/79caac7de9721f634328.jpg", "sha256": "79caac7de9721f634328e015a74667c54aef523773e963c9c85a2857104a67fc" },
+        { "path": "/assets/c47115e3fa1254cf87ad.jpg", "sha256": "c47115e3fa1254cf87adc2af55dfd8d260d0a2d7d5f3c8aeebc6402fbd873e49" }
+      ]
+    },
+    "beforeAppRedesignSync": {
+      "path": "/archive/2026-07-19-before-app-redesign-sync/Pathway_Implementation_Masterplan.html",
+      "sha256": "9f215ac0ee25d734af09b1d4696cccfafd294de5dddc816e9064ae81926b27b4"
     },
     "beforeClaudeMaxBudget": {
       "path": "/archive/2026-07-17-before-claude-max-budget/Pathway_Implementation_Masterplan.html",
