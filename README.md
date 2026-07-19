@@ -23,9 +23,9 @@ Wersje WEB i offline pokazują tę samą treść. WEB ładuje obrazy i fonty z k
 
 ## Kontrola zgodności
 
-- aktualna WEB: `74e549a27b260a4c081dc34d8a850d6240505eaf953c602e01275fd134ede81d`
-- aktualna offline: `dd80022f454c3092f482bc6bc7f66d1bbf218239d94c762fd5a04ccab53e13e2`
-- ZIP offline: `4017ce5199802efc98acad7d670816bfb5d5c9612ae823993c0212487ca7663b`
+- aktualna WEB: `41a5d4bfa90c243b5da2dbe33305d570721ef49d2563e4d7b684a7f2a1fc16e4`
+- aktualna offline: `f952c0c63fa83a16cd053c808b3ae6207b245b76e40e3f0c94f29b6727023407`
+- ZIP offline: `38c5795035b08db52847f991b75bc4f9fa058f2cfa00a1c8479dd10118fa396d`
 - manifest zasobów WEB: `ecf06c0e67f45324e3a86465c3b929835bf969213b8b0a998a84d047283a036c` — zawiera SHA-256 każdego fontu, logo, obrazu hero i ośmiu aktualnych ekranów aplikacji;
 - wersja sprzed przebudowy pod prawdziwą mapę: `ce1f875a5d0ff31a6f2b7dd8c3c976411b5e5a3140292d46127f0359ebc45c17`
 - wersja sprzed synchronizacji z aktualną aplikacją: `9f215ac0ee25d734af09b1d4696cccfafd294de5dddc816e9064ae81926b27b4`
@@ -46,6 +46,7 @@ Wersje WEB i offline pokazują tę samą treść. WEB ładuje obrazy i fonty z k
 - hero 1600×980 oraz osiem ekranów 390×844 pochodzą z aktualnej aplikacji Carlstadt; zachowują proporcje i nie są przycinane;
 - widoki 320, 375, 390, 430 i 1440 px nie mają poziomego przepełnienia; tekst, karty i tabele nie nachodzą na siebie, a tabele pozostają w przewijanych kontenerach;
 - 18 stabilnych odnośników spisu treści, skróty Founder Brief, bezpośrednie adresy z `#`, cofanie/do przodu i aktywna sekcja wskazują właściwe miejsca;
+- nawigacja pozostaje otwarta jako pełny boczny spis na desktopie, a zwija się w jednoznaczny pasek „Nawigacja” dopiero przy szerokości 1180 px i mniejszej;
 - bieżące funkcje demonstratora są oddzielone od planowanych ekranów wyboru miasta i własnej lokalizacji; biblioteka czterech szablonów bez udawania AI jest oznaczona jako zrealizowana;
 - lokalizacja jest minimalizowana: bez śledzenia w tle, bez adresu domu w koncie i bez surowych współrzędnych w analityce; opisano zgodę, retencję, eksport, usunięcie, [attribution OSM/ODbL](https://www.openstreetmap.org/copyright) oraz ograniczenia [Nominatim](https://operations.osmfoundation.org/policies/nominatim/) i [standardowego serwera kafli](https://operations.osmfoundation.org/policies/tiles/);
 - kwoty są zgodne w źródle, kartach, tabelach i wykresach: 360 USD teraz, 1,5 tys. USD Walidacji V1, 5,6 tys. USD do alfy, 9,6 tys. USD do bety, 10,8 tys. USD do startu, 11,2 tys. USD planu oraz 12,7 tys. USD koperty z rezerwą;

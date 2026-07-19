@@ -4,7 +4,7 @@
   "versions": {
     "web": {
       "path": "/index.html",
-      "sha256": "74e549a27b260a4c081dc34d8a850d6240505eaf953c602e01275fd134ede81d",
+      "sha256": "41a5d4bfa90c243b5da2dbe33305d570721ef49d2563e4d7b684a7f2a1fc16e4",
       "assets": "/assets/asset-manifest.json",
       "manifestSha256": "ecf06c0e67f45324e3a86465c3b929835bf969213b8b0a998a84d047283a036c",
       "assetCount": 12
@@ -12,8 +12,8 @@
     "offline": {
       "path": "/offline/Pathway_Implementation_Masterplan.html",
       "download": "/offline/Pathway_Implementation_Masterplan_OFFLINE.zip",
-      "sha256": "dd80022f454c3092f482bc6bc7f66d1bbf218239d94c762fd5a04ccab53e13e2",
-      "downloadSha256": "4017ce5199802efc98acad7d670816bfb5d5c9612ae823993c0212487ca7663b"
+      "sha256": "f952c0c63fa83a16cd053c808b3ae6207b245b76e40e3f0c94f29b6727023407",
+      "downloadSha256": "38c5795035b08db52847f991b75bc4f9fa058f2cfa00a1c8479dd10118fa396d"
     },
     "currentProductVisuals": {
       "hero": {
