@@ -1,35 +1,39 @@
 {
   "project": "Pathway Living Map",
-  "publishedAt": "2026-07-19T22:30:00+02:00",
+  "publishedAt": "2026-07-19T23:50:00+02:00",
   "versions": {
     "web": {
       "path": "/index.html",
-      "sha256": "15142694678c8a7cfe2ab7c2b6f182a87a0331cc83f4df63944d98752f47159d",
+      "sha256": "74e549a27b260a4c081dc34d8a850d6240505eaf953c602e01275fd134ede81d",
       "assets": "/assets/asset-manifest.json",
-      "manifestSha256": "8504d22e96c692bd1f11fdfd042626fb401bcc5900df469479395734d7fd8a1a",
+      "manifestSha256": "ecf06c0e67f45324e3a86465c3b929835bf969213b8b0a998a84d047283a036c",
       "assetCount": 12
     },
     "offline": {
       "path": "/offline/Pathway_Implementation_Masterplan.html",
       "download": "/offline/Pathway_Implementation_Masterplan_OFFLINE.zip",
-      "sha256": "ce1f875a5d0ff31a6f2b7dd8c3c976411b5e5a3140292d46127f0359ebc45c17",
-      "downloadSha256": "9b69be47bb212d35dec077113b6b76b33127e925db7baac7e4ea68706f80fbcd"
+      "sha256": "dd80022f454c3092f482bc6bc7f66d1bbf218239d94c762fd5a04ccab53e13e2",
+      "downloadSha256": "4017ce5199802efc98acad7d670816bfb5d5c9612ae823993c0212487ca7663b"
     },
     "currentProductVisuals": {
       "hero": {
-        "path": "/assets/241be19d345925c93f82.jpg",
-        "sha256": "241be19d345925c93f828514cb4b80c61622895af06b2e2be1c712c4651dd67b"
+        "path": "/assets/285efaf76374bdcc0633.png",
+        "sha256": "285efaf76374bdcc0633d16709145d25c1909f6cb6052accee284fabb37daee1"
       },
       "screens390x844": [
-        { "path": "/assets/0f55ec7c4b3e65feef4c.jpg", "sha256": "0f55ec7c4b3e65feef4cce467e64eb13c1c53385e2318732af49f01fdb6db16b" },
-        { "path": "/assets/a250beacf798e1c1fb49.jpg", "sha256": "a250beacf798e1c1fb498fd6b02d7f03af2ff9c25b633be515ac4ad06a42f78b" },
-        { "path": "/assets/28438d3e9a2f4fe8091c.jpg", "sha256": "28438d3e9a2f4fe8091c9085ecef4a2f4a838650bc4c115b3674f1665a269905" },
-        { "path": "/assets/5e2d561ac892e09f3399.jpg", "sha256": "5e2d561ac892e09f3399816f47b6760280ff833e99f31408440fc3ac71b9cc12" },
-        { "path": "/assets/2da7a3adf4bedd6e79a2.jpg", "sha256": "2da7a3adf4bedd6e79a2359931ac6d20de30225f50e0e6e3d1c1a1ed51f29729" },
-        { "path": "/assets/1d51717abbf169d52d43.jpg", "sha256": "1d51717abbf169d52d436dad745b8820526797c9b75c2e173b395ac9738d458e" },
-        { "path": "/assets/79caac7de9721f634328.jpg", "sha256": "79caac7de9721f634328e015a74667c54aef523773e963c9c85a2857104a67fc" },
-        { "path": "/assets/c47115e3fa1254cf87ad.jpg", "sha256": "c47115e3fa1254cf87adc2af55dfd8d260d0a2d7d5f3c8aeebc6402fbd873e49" }
+        { "path": "/assets/b5b55458e0f2a926bec4.png", "sha256": "b5b55458e0f2a926bec4e94316ce8db1c10645bd999b6b23f13d7a0907539b03" },
+        { "path": "/assets/e10bc17a4e22e31afc1e.png", "sha256": "e10bc17a4e22e31afc1e18157d5d60d045edcd41585d154c4b34e69197a76cdc" },
+        { "path": "/assets/0044f78fa23ea4d5395f.png", "sha256": "0044f78fa23ea4d5395f77e5ab6355bc2eac829cbd05782d3a7f6efa05f29310" },
+        { "path": "/assets/f0b8f7359c84d5062cca.png", "sha256": "f0b8f7359c84d5062cca46f537a2881580bc20c1cb968ef5d0a810963d62900e" },
+        { "path": "/assets/04a4055a88a35ac64817.png", "sha256": "04a4055a88a35ac6481751c21af6a203d7502039bd9a44210f116e8345835f70" },
+        { "path": "/assets/c25c48d523cbc23483f0.png", "sha256": "c25c48d523cbc23483f054d3b96254abff283836931f8b08593738db5399d558" },
+        { "path": "/assets/e4ce1fd2086704c62539.png", "sha256": "e4ce1fd2086704c625396e08b279231548f21c9c1ee305cbfb8656a391041142" },
+        { "path": "/assets/65552a28884a9ea080e2.png", "sha256": "65552a28884a9ea080e2986fbd800c5d21aae9f5fa7ad43b9ae9678e9ff6ca13" }
       ]
+    },
+    "beforeRealMapReplan": {
+      "path": "/archive/2026-07-19-before-real-map-replan/Pathway_Implementation_Masterplan.html",
+      "sha256": "ce1f875a5d0ff31a6f2b7dd8c3c976411b5e5a3140292d46127f0359ebc45c17"
     },
     "beforeAppRedesignSync": {
       "path": "/archive/2026-07-19-before-app-redesign-sync/Pathway_Implementation_Masterplan.html",
