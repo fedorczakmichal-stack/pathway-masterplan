@@ -655,9 +655,18 @@ a:hover{color:var(--pw-brass)}
 @media(max-width:1100px){#pathway-product-preview .pw-current-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:620px){#pathway-product-preview .pw-current-grid{grid-template-columns:1fr;gap:18px}#pathway-product-preview .pw-current-card{padding:16px}#pathway-product-preview .pw-current-phone{max-width:260px}}
 </style>
+<style id="pathway-shortcut-link-style">
+.pathway-shortcut-cta{display:inline-grid;gap:3px;min-height:54px;margin:0 0 22px;padding:10px 16px;border:1px solid rgba(18,61,49,.2);border-left:3px solid var(--pw-brass);background:rgba(251,248,239,.82);color:var(--pw-forest);text-decoration:none;box-shadow:0 12px 28px rgba(11,58,45,.08)}
+.pathway-shortcut-cta span{font:700 12px/1.2 var(--pw-body);letter-spacing:.06em;text-transform:uppercase}
+.pathway-shortcut-cta small{color:#64736b;font:500 10px/1.35 var(--pw-body);letter-spacing:.02em}
+.pathway-shortcut-cta:hover,.pathway-shortcut-cta:focus-visible{border-color:var(--pw-brass);background:#fffaf0;outline:3px solid rgba(185,138,50,.32);outline-offset:3px}
+@media(max-width:620px){.pathway-shortcut-cta{width:100%;min-height:58px;margin-bottom:20px}}
+@media print{.pathway-shortcut-cta{display:none}}
+</style>
 <section id="pathway-editorial-hero" aria-labelledby="pathway-editorial-title">
   <div class="pathway-hero-copy">
     <p class="pathway-hero-kicker">REALNA MAPA OSM · USA · PLAN PRODUKTU I WDROŻENIA</p>
+    <a class="pathway-shortcut-cta" href="#pathway-skrot-offline"><span>Plan w 5 minut</span><small>Esencja · uczciwe szanse · co zrobić teraz</small></a>
     <h1 id="pathway-editorial-title">Pathway<br><em>Living Map</em></h1>
     <div class="pathway-hero-rule" aria-hidden="true"></div>
     <h2>Twoje cele na ulicach prawdziwej okolicy</h2>
@@ -679,6 +688,67 @@ a:hover{color:var(--pw-brass)}
     <p>Carlstadt zostaje referencją jakości. Po G3 otwieramy G4: automatyczne geokodowanie, OSM, graf, routing i wspólny styl na pięciu miastach — bez ręcznej korekty.</p>
   </aside>
 </section>
+<style id="pathway-shortcut-offline-style">
+#pathway-skrot-offline{width:min(1120px,calc(100% - 48px));margin:18px auto 54px;border:1px solid var(--pw-line);background:linear-gradient(145deg,#fffaf0,#f4ecda);color:var(--pw-ink);box-shadow:0 20px 60px rgba(11,58,45,.1);scroll-margin-top:70px}
+#pathway-skrot-offline>summary{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px;padding:15px 20px;color:var(--pw-forest);cursor:pointer;list-style:none;font:600 19px/1.1 var(--pw-display)}
+#pathway-skrot-offline>summary::-webkit-details-marker{display:none}
+#pathway-skrot-offline>summary span{color:#82621d;font:800 9px/1.3 var(--pw-body);letter-spacing:.14em;text-transform:uppercase}
+#pathway-skrot-offline>summary:after{content:"+";color:var(--pw-brass);font:400 27px/1 var(--pw-display)}
+#pathway-skrot-offline[open]>summary{border-bottom:1px solid var(--pw-line)}
+#pathway-skrot-offline[open]>summary:after{content:"−"}
+.pws-body{padding:0 24px 24px}.pws-part{padding:32px 0;border-bottom:1px solid var(--pw-line);scroll-margin-top:70px}.pws-part:last-child{border-bottom:0;padding-bottom:10px}
+.pws-head{display:grid;grid-template-columns:38px minmax(0,1fr) auto;gap:12px;align-items:start;margin-bottom:16px}.pws-no{color:var(--pw-brass);font:500 28px/.9 var(--pw-display)}
+.pws-head small{display:block;margin:0 0 4px;color:#83631f;font:800 9px/1.2 var(--pw-body);letter-spacing:.13em;text-transform:uppercase}.pws-head h2{margin:0;color:var(--pw-forest);font:500 clamp(28px,4vw,46px)/.92 var(--pw-display);letter-spacing:-.03em}.pws-head h2 em{color:var(--pw-brass);font-style:normal}
+.pws-back{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 12px;border:1px solid var(--pw-line);border-radius:999px;color:var(--pw-forest);font:700 10px var(--pw-body);text-decoration:none;white-space:nowrap}.pws-back:hover,.pws-back:focus-visible{border-color:var(--pw-brass);background:#fffaf0;outline:0}
+.pws-lede{margin:0;color:var(--pw-forest);font:500 21px/1.2 var(--pw-display)}.pws-copy{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:14px}.pws-copy p{margin:0;color:#42564d;font:13px/1.55 var(--pw-body)}
+.pws-levels{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:18px;border:1px solid var(--pw-line);background:rgba(255,250,240,.72)}.pws-levels article{padding:14px}.pws-levels article+article{border-left:1px solid var(--pw-line)}.pws-levels span{display:block;color:#82621d;font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.1em}.pws-levels b{display:block;margin-top:5px;color:var(--pw-forest);font:500 18px/1.1 var(--pw-display)}.pws-levels p{margin:5px 0 0;color:var(--pw-muted);font-size:10px;line-height:1.4}
+.pws-honest{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}.pws-honest article{padding:14px;border:1px solid var(--pw-line);background:rgba(255,250,240,.62)}.pws-honest h3{margin:0 0 8px;color:var(--pw-forest);font:600 16px var(--pw-display)}.pws-honest ul{margin:0;padding-left:16px}.pws-honest li{padding:2px 0;color:#43574e;font-size:11px;line-height:1.4}.pws-boundary{margin:14px 0 0;padding:12px 14px;border-left:3px solid var(--pw-brass);background:rgba(223,201,137,.16);color:#40544b;font-size:11px;line-height:1.5}
+.pws-gates{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin-top:14px}.pws-gate{min-width:0;padding:10px;border:1px solid var(--pw-line);background:rgba(255,250,240,.6)}.pws-gate>b{display:block;margin-bottom:6px;color:var(--pw-forest);font-size:11px}.pws-gate span{display:block;color:#495c53;font-size:9px;line-height:1.35}.pws-gate i{font-style:normal;font-weight:800}.pws-gate .s{color:var(--pw-negative)}.pws-gate .p{color:#84641f}.pws-gate .d{color:var(--pw-forest-2)}
+.pws-next{display:grid;grid-template-columns:110px minmax(0,1fr);gap:16px;margin-top:16px;padding:18px;border:1px solid rgba(185,138,50,.55);background:rgba(255,250,240,.75)}.pws-next span{display:block;color:#82621d;font-size:9px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}.pws-next strong{display:block;margin-top:5px;color:var(--pw-forest);font:500 26px/1 var(--pw-display)}.pws-next h3{margin:0;color:var(--pw-forest);font:500 20px/1.1 var(--pw-display)}.pws-next p{margin:7px 0 0;color:#43574e;font-size:11px;line-height:1.45}
+.pws-actions{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:7px;margin:14px 0 0;padding:0;list-style:none}.pws-actions li{min-width:0;padding:11px;border-top:2px solid var(--pw-brass);background:rgba(255,250,240,.62)}.pws-actions time{display:block;color:#82621d;font-size:8px;font-weight:800;text-transform:uppercase}.pws-actions b{display:block;margin:5px 0;color:var(--pw-forest);font-size:10.5px;line-height:1.25}.pws-actions span{display:block;color:var(--pw-muted);font-size:9px;line-height:1.35}
+.pws-note{margin:14px 0 0;padding:11px 13px;border-left:3px solid var(--pw-negative);background:rgba(184,95,70,.07);color:#4c5a53;font-size:10px;line-height:1.45}
+@media(max-width:760px){#pathway-skrot-offline{width:calc(100% - 28px);margin-top:14px}.pws-body{padding:0 15px 18px}.pws-head{grid-template-columns:32px minmax(0,1fr)}.pws-back{grid-column:2;justify-self:start}.pws-copy,.pws-honest{grid-template-columns:1fr}.pws-levels{grid-template-columns:1fr}.pws-levels article+article{border-left:0;border-top:1px solid var(--pw-line)}.pws-gates{grid-template-columns:1fr}.pws-actions{grid-template-columns:1fr 1fr}.pws-next{grid-template-columns:88px minmax(0,1fr)}}
+@media(max-width:390px){.pws-actions{grid-template-columns:1fr}.pws-next{grid-template-columns:1fr}}
+@media print{#pathway-skrot-offline{display:none}}
+</style>
+<details id="pathway-skrot-offline">
+  <summary><span>Skrót osadzony · działa bez internetu</span>Pathway — plan w 5 minut</summary>
+  <div class="pws-body">
+    <section id="pws-esencja" class="pws-part" aria-labelledby="pws-esencja-title">
+      <header class="pws-head"><span class="pws-no">01</span><div><small>Esencja</small><h2 id="pws-esencja-title">Życie jako <em>prawdziwa mapa.</em></h2></div><a class="pws-back" href="#pathway-founder-brief">Pełny plan · produkt</a></header>
+      <p class="pws-lede">Pathway zamienia ważne cele w trasy na prawdziwych ulicach Twojej okolicy i zawsze pokazuje następny mały ruch.</p>
+      <div class="pws-copy"><p><strong>Dziś działa klikalny demonstrator Carlstadt:</strong> realny OSM i graf ulic, trzy drogi, klikalne ukończone milestone’y, Focus, Progress, Archive oraz dwukrokowy kreator czterech jawnych szablonów bez udawania AI.</p><p><strong>Demo produktowe</strong> ma pozwolić wybrać jedno z 4–6 przygotowanych miast USA. <strong>Pełna wersja</strong> przyjmie miasto, ZIP, adres albo jednorazową przybliżoną lokalizację i zbuduje własną okolicę automatycznie.</p></div>
+      <div class="pws-levels"><article><span>Jest teraz</span><b>Carlstadt proof</b><p>Działająca estetyka, geometria tras i wspólny stan.</p></article><article><span>Następne demo</span><b>4–6 miast USA</b><p>Wygenerowane i sprawdzone pakiety map.</p></article><article><span>Pełny produkt</span><b>Własna okolica</b><p>Automatyczna mapa bez ręcznego redrawu.</p></article></div>
+      <p class="pws-boundary"><strong>Model dojścia:</strong> lokalizacja → geokodowanie → OSM → graf ulic → węzeł Mai → routing → Urban Nocturne → cache, manifest i QA. Jeśli G4 nie przejdzie bez ręcznej korekty, alfa zostaje przy katalogu.</p>
+    </section>
+    <section id="pws-szanse" class="pws-part" aria-labelledby="pws-szanse-title">
+      <header class="pws-head"><span class="pws-no">02</span><div><small>Szanse na sukces — uczciwie</small><h2 id="pws-szanse-title">Nie procent. <em>Dowody.</em></h2></div><a class="pws-back" href="#pathway-walidacja">Pełny plan · bramki</a></header>
+      <p class="pws-lede">Pomysł ma sens tylko wtedy, gdy mapa przestanie być efektem „wow” i zacznie pomagać ludziom wracać oraz kończyć realne ruchy.</p>
+      <div class="pws-honest"><article><h3>Co może go zabić</h3><ul><li>brak powrotu po D7–D30;</li><li>duża konkurencja trackerów;</li><li>wąskie gardło foundera technicznego;</li><li>1,4 tys. USD pracy mapowej i ryzyko ręcznej korekty.</li></ul></article><article><h3>Co realnie pomaga</h3><ul><li>wyróżnik prawdziwej okolicy;</li><li>działające demo;</li><li>pierwszy wydatek tylko 360 USD;</li><li>budżet otwierany bramkami.</li></ul></article></div>
+      <p class="pws-boundary"><strong>Warunek brzegowy:</strong> G1 potwierdza problem, G3b pokazuje powrót ≥4/8, a G4 buduje 5/5 miast bez korekty. Dzisiaj projekt jest przed G1 — żadna bramka nie ma jeszcze wyniku „DALEJ”.</p>
+      <div class="pws-gates" aria-label="Bramki STOP, POPRAW, DALEJ">
+        <article class="pws-gate"><b>G1 · Problem · 12</b><span><i class="s">STOP</i> ≤4 · <i class="p">POPRAW</i> 5–6 · <i class="d">DALEJ</i> ≥7 problem, ≥5 obejście + location input</span></article>
+        <article class="pws-gate"><b>G2 · Mapa · 12</b><span><i class="s">STOP</i> ≤7 · <i class="p">POPRAW</i> 8–9 lub &gt;20% wolniej · <i class="d">DALEJ</i> ≥10, ≤20%, attribution</span></article>
+        <article class="pws-gate"><b>G2b · Szablony · 10</b><span><i class="s">STOP</i> ≤4/P0 · <i class="p">POPRAW</i> 5–6 · <i class="d">DALEJ</i> ≥7 na min. 4/5, bez P0</span></article>
+        <article class="pws-gate"><b>G3 · Ruch · 8</b><span><i class="s">STOP</i> ≤3 · <i class="p">POPRAW</i> 4 lub problem mapy · <i class="d">DALEJ</i> ≥5, mapa nie blokuje</span></article>
+        <article class="pws-gate"><b>G3b · Powrót D7</b><span><i class="s">STOP</i> ≤1 · <i class="p">POPRAW</i> 2–3 · <i class="d">DALEJ</i> ≥4/8, bez P0/P1</span></article>
+        <article class="pws-gate"><b>G4 · Mapy · 5 miast</b><span><i class="s">STOP</i> &lt;4/ręczna kalibracja · <i class="p">POPRAW</i> 4/5/katalog · <i class="d">DALEJ</i> 5/5 bez korekty</span></article>
+        <article class="pws-gate"><b>G5 · Alfa</b><span><i class="s">STOP</i> &lt;40%/P0 · <i class="p">POPRAW</i> 40–49% lub map &lt;95% · <i class="d">DALEJ</i> ≥50%, accept ≥65%, map ≥95%</span></article>
+        <article class="pws-gate"><b>G6 · Beta · W4</b><span><i class="s">STOP</i> &lt;25%/koszt · <i class="p">POPRAW</i> 25–34% lub cross-city 90–94% · <i class="d">DALEJ</i> ≥35%, cross-city ≥95%</span></article>
+        <article class="pws-gate"><b>G6b · Płatność</b><span><i class="s">STOP</i> &lt;5% · <i class="p">POPRAW</i> 5–7,9% · <i class="d">DALEJ</i> ≥8% kupuje lub wpłaca depozyt</span></article>
+      </div>
+    </section>
+    <section id="pws-teraz" class="pws-part" aria-labelledby="pws-teraz-title">
+      <header class="pws-head"><span class="pws-no">03</span><div><small>Co zrobić teraz</small><h2 id="pws-teraz-title">Zacznij od <em>jednej decyzji.</em></h2></div><a class="pws-back" href="#pathway-dzialania">Pełny plan · działania</a></header>
+      <p class="pws-lede">W poniedziałek rano nie buduj kolejnej funkcji. Zamknij Etap 0 i uruchom badanie problemu.</p>
+      <article class="pws-next"><div><span>Termin w planie</span><strong>Dziś</strong><span>2 h · 0 USD cash</span></div><div><h3>Podpiszcie wspólną decyzję o produkcie.</h3><p>Prawdziwa mapa jest rdzeniem; Carlstadt jest proofem; demo ma katalog miast; pełna wersja własną okolicę; bez background location.</p><p><strong>Zrobione, gdy:</strong> istnieje jedna wspólna wersja decyzji.</p></div></article>
+      <ol class="pws-actions"><li><time>Dziś</time><b>Podzielcie role</b><span>1 h · 0 USD</span></li><li><time>24 h</time><b>Rejestr założeń</b><span>2 h · 0 USD</span></li><li><time>48 h</time><b>12 zaproszeń + 3 obietnice</b><span>11 h · 0 USD teraz</span></li><li><time>72 h</time><b>6 ekranów + safety</b><span>24–36 h · 0 USD</span></li><li><time>Tydz. 2</time><b>12 rozmów + G1</b><span>20–26 h · 360 USD</span></li></ol>
+      <p class="pws-boundary"><strong>Razem z krokiem „Dziś”:</strong> 60–78 h pracy founderów i 12 × 30 USD = 360 USD.</p>
+      <p class="pws-note"><strong>Jawna niejasność pełnego planu:</strong> terminy są względne, bez dat kalendarzowych. Część planu podaje limit Walidacji V1 1,5 tys. USD, a dwie tabele 1,8 tys. USD; skrót używa tylko bezspornej kwoty 360 USD i nie poprawia rozbieżności po cichu.</p>
+    </section>
+  </div>
+</details>
+<script id="pathway-shortcut-offline-script">(() => { const box = document.getElementById("pathway-skrot-offline"); const link = document.querySelector('.pathway-shortcut-cta[href="#pathway-skrot-offline"]'); const open = () => { if (!box) return; box.open = true; requestAnimationFrame(() => box.scrollIntoView({block:"start",behavior:matchMedia("(prefers-reduced-motion:reduce)").matches?"auto":"smooth"})); }; if (link) link.addEventListener("click", event => { event.preventDefault(); history.replaceState(null,"","#pathway-skrot-offline"); open(); }); if (location.hash === "#pathway-skrot-offline") open(); addEventListener("hashchange", () => { if (location.hash === "#pathway-skrot-offline") open(); }); })();</script>
 <section id="pathway-founder-brief" aria-labelledby="pathway-founder-brief-title">
   <header class="fb-head"><div><p class="fb-eyebrow">Founder Brief · decyzja w 10 minut</p><h2 id="pathway-founder-brief-title">Najpierw dowód.<br><em>Potem fabryka map.</em></h2></div><p>Carlstadt potwierdza estetykę i interakcję. Ten plan pokazuje, jak przejść od jednej ręcznie skalibrowanej instancji do wielu prawdziwych okolic bez ręcznego redrawu.</p></header>
   <div class="fb-metrics">

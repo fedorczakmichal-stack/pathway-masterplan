@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="color-scheme" content="light">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="Pathway Living Map — esencja planu, uczciwe bramki sukcesu i działania na najbliższe dwa tygodnie.">
+  <title>Pathway Living Map — plan w 5 minut</title>
+  <style>
+    :root{
+      color-scheme:light;
+      --forest:#0b3a2d;
+      --forest-2:#315f4e;
+      --ink:#18372e;
+      --muted:#596b62;
+      --paper:#f8f3e7;
+      --paper-2:#efe7d4;
+      --paper-3:#fffaf0;
+      --brass:#b98a32;
+      --brass-soft:#dfc989;
+      --terra:#b85f46;
+      --line:rgba(18,61,49,.17);
+      --shadow:0 18px 55px rgba(11,58,45,.11);
+      --serif:"Newsreader","Iowan Old Style","Palatino Linotype",Georgia,serif;
+      --sans:"Avenir Next","Segoe UI",system-ui,-apple-system,sans-serif;
+    }
+    *{box-sizing:border-box}
+    html{margin:0;scroll-behavior:smooth;background:var(--paper);color:var(--ink)}
+    body{margin:0;min-width:0;background:
+      radial-gradient(circle at 90% 2%,rgba(223,201,137,.22),transparent 28rem),
+      linear-gradient(180deg,var(--paper-3),var(--paper));
+      color:var(--ink);font:14px/1.52 var(--sans);overflow-x:hidden}
+    a{color:inherit}
+    .skip-link{position:fixed;z-index:30;left:12px;top:10px;padding:10px 14px;background:var(--forest);color:white;transform:translateY(-160%)}
+    .skip-link:focus{transform:none}
+    .topbar{position:sticky;z-index:20;top:0;display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:56px;padding:8px max(18px,env(safe-area-inset-left));border-bottom:1px solid rgba(18,61,49,.12);background:rgba(248,243,231,.92);backdrop-filter:blur(14px)}
+    .brand{display:flex;align-items:baseline;gap:9px;text-decoration:none}
+    .brand b{color:var(--forest);font:600 16px/1 var(--serif);letter-spacing:.04em}
+    .brand span{color:#826423;font-size:9px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+    .topnav{display:flex;align-items:center;gap:4px}
+    .topnav a{display:inline-flex;align-items:center;min-height:44px;padding:0 10px;border-radius:999px;color:var(--muted);font-size:11px;font-weight:700;text-decoration:none}
+    .topnav a:hover,.topnav a:focus-visible{background:var(--paper-2);color:var(--forest);outline:2px solid transparent}
+    main{width:min(920px,100%);margin:0 auto}
+    .chapter{scroll-margin-top:66px;padding:clamp(46px,7vw,76px) clamp(20px,5vw,48px);border-bottom:1px solid var(--line)}
+    .chapter:last-child{border-bottom:0;padding-bottom:64px}
+    .chapter-head{display:grid;grid-template-columns:48px minmax(0,1fr) auto;gap:14px;align-items:start;margin-bottom:25px}
+    .chapter-no{color:var(--brass);font:500 34px/.85 var(--serif)}
+    .eyebrow{margin:0 0 6px;color:#84641f;font-size:9px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+    h1,h2,h3,p{overflow-wrap:anywhere}
+    h1,h2{margin:0;color:var(--forest);font:500 clamp(36px,7vw,64px)/.91 var(--serif);letter-spacing:-.035em}
+    h1 em,h2 em{color:var(--brass);font-weight:400}
+    .full-link{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 13px;border:1px solid var(--line);border-radius:999px;color:var(--forest);font-size:10px;font-weight:800;letter-spacing:.04em;text-decoration:none;white-space:nowrap}
+    .full-link:hover,.full-link:focus-visible{border-color:var(--brass);background:var(--paper-2);outline:0}
+    .lede{margin:0;color:var(--forest);font:500 clamp(22px,4vw,32px)/1.15 var(--serif);letter-spacing:-.015em}
+    .essence-copy{display:grid;grid-template-columns:1.08fr .92fr;gap:24px;margin-top:22px}
+    .essence-copy p{margin:0;color:#3f554b}
+    .essence-copy p+p{margin-top:10px}
+    strong{color:var(--forest)}
+    .proof-strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:24px;border:1px solid var(--line);background:rgba(255,250,240,.72);box-shadow:var(--shadow)}
+    .proof-strip article{min-width:0;padding:16px}
+    .proof-strip article+article{border-left:1px solid var(--line)}
+    .proof-strip span{display:block;color:#83631f;font-size:9px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+    .proof-strip b{display:block;margin-top:6px;color:var(--forest);font:500 19px/1.08 var(--serif)}
+    .proof-strip p{margin:7px 0 0;color:var(--muted);font-size:11px;line-height:1.4}
+    .pipeline{margin:20px 0 0;padding:15px 18px;border-left:3px solid var(--brass);background:rgba(223,201,137,.16);color:#3d5148;font-size:12px;line-height:1.52}
+    .pipeline b{display:block;margin-bottom:4px}
+
+    .honest-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:22px}
+    .honest-card{padding:17px;border:1px solid var(--line);background:rgba(255,250,240,.66)}
+    .honest-card h3{margin:0 0 10px;color:var(--forest);font:600 15px/1.2 var(--serif)}
+    .honest-card ul{margin:0;padding-left:17px}
+    .honest-card li{padding:2px 0;color:#42564d;font-size:12px;line-height:1.42}
+    .honest-card li::marker{color:var(--brass)}
+    .boundary{margin:18px 0 12px;padding:14px 16px;border:1px solid rgba(185,138,50,.5);background:rgba(223,201,137,.14);color:#344c42;font-size:12px;line-height:1.5}
+    .boundary b{font-family:var(--serif);font-size:16px}
+    .gate-details{margin-top:18px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .gate-details>summary{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:52px;padding:8px 2px;color:var(--forest);cursor:pointer;list-style:none;font:600 18px/1 var(--serif)}
+    .gate-details>summary::-webkit-details-marker{display:none}
+    .gate-details>summary span{color:var(--muted);font:800 9px/1 var(--sans);letter-spacing:.08em;text-transform:uppercase}
+    .gate-details>summary:after{content:"Pokaż";color:#84641f;font:800 9px/1 var(--sans);letter-spacing:.08em;text-transform:uppercase}
+    .gate-details[open]>summary:after{content:"Zwiń"}
+    .gates{display:grid;gap:7px}
+    .gate{display:grid;grid-template-columns:132px minmax(0,1fr);gap:9px;padding:10px;border-top:1px solid var(--line)}
+    .gate:last-child{border-bottom:1px solid var(--line)}
+    .gate-name b{display:block;font-size:11px;line-height:1.25}
+    .gate-name span{display:block;margin-top:3px;color:var(--muted);font-size:9px;line-height:1.25}
+    .thresholds{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+    .threshold{min-width:0;padding:7px 8px;background:rgba(255,250,240,.58);color:#44584f;font-size:9px;line-height:1.28}
+    .threshold b{display:block;margin-bottom:3px;font:800 8px/1 var(--sans);letter-spacing:.1em;text-transform:uppercase}
+    .threshold.stop b{color:var(--terra)}
+    .threshold.repair b{color:#866218}
+    .threshold.go b{color:var(--forest-2)}
+
+    .next-card{display:grid;grid-template-columns:120px minmax(0,1fr);gap:18px;margin-top:22px;padding:22px;border:1px solid rgba(185,138,50,.58);background:linear-gradient(145deg,rgba(255,250,240,.94),rgba(239,231,212,.78));box-shadow:var(--shadow)}
+    .next-meta span{display:block;color:#84641f;font-size:9px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+    .next-meta b{display:block;margin-top:6px;color:var(--forest);font:500 29px/.95 var(--serif)}
+    .next-copy h3{margin:0;color:var(--forest);font:500 22px/1.08 var(--serif)}
+    .next-copy p{margin:9px 0 0;color:#43574e;font-size:12px}
+    .done{margin-top:11px;padding-top:10px;border-top:1px solid var(--line)}
+    .two-weeks{margin-top:22px}
+    .two-weeks h3{margin:0 0 9px;color:var(--forest);font:600 20px/1 var(--serif)}
+    .action-list{margin:0;padding:0;list-style:none;border-top:1px solid var(--line)}
+    .action-list li{display:grid;grid-template-columns:32px 76px minmax(0,1fr) auto;gap:10px;align-items:start;padding:11px 0;border-bottom:1px solid var(--line)}
+    .action-list .n{color:var(--brass);font:500 21px/1 var(--serif)}
+    .action-list time{color:#80601d;font-size:9px;font-weight:800;letter-spacing:.06em;text-transform:uppercase}
+    .action-list p{margin:0;color:#3e5349;font-size:11px;line-height:1.38}
+    .action-list p b{display:block;margin-bottom:2px;font-size:12px}
+    .cost{min-width:78px;color:var(--forest);font-size:9px;font-weight:800;line-height:1.35;text-align:right}
+    .sum{display:flex;justify-content:space-between;gap:18px;margin:12px 0 0;color:var(--muted);font-size:10px}
+    .sum b{font-size:11px}
+    .consistency-note{margin:18px 0 0;padding:13px 15px;border-left:3px solid var(--terra);background:rgba(184,95,70,.075);color:#4d5852;font-size:10.5px;line-height:1.45}
+    .consistency-note b{color:#814331}
+    :focus-visible{outline:3px solid var(--brass);outline-offset:3px}
+
+    @media(max-width:680px){
+      .topnav a:not(.full){display:none}
+      .chapter{padding:27px 16px}
+      .chapter-head{grid-template-columns:38px minmax(0,1fr);gap:9px;margin-bottom:14px}
+      .chapter-no{font-size:27px}.full-link{grid-column:2;justify-self:start;min-height:44px;margin-top:4px}
+      .essence-copy{grid-template-columns:1fr;gap:8px}.honest-grid{grid-template-columns:1fr 1fr;gap:7px}.honest-card{padding:12px 10px}.honest-card li{font-size:10px}
+      .gate{grid-template-columns:100px minmax(0,1fr);padding:9px 0}
+      .threshold{padding:6px 5px;font-size:8.6px}
+      .next-card{grid-template-columns:82px minmax(0,1fr);gap:12px;padding:15px 13px}.next-copy h3{font-size:19px}.next-copy p{font-size:10.5px}
+      .action-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;border:0}
+      .action-list li{display:grid;grid-template-columns:24px minmax(0,1fr);gap:5px 7px;padding:10px;border:1px solid var(--line);background:rgba(255,250,240,.55)}
+      .action-list .n{grid-row:1/span 2}.action-list time{grid-column:2}.action-list p{grid-column:1/-1;font-size:10px}.cost{grid-column:1/-1;text-align:left;min-width:0}
+      .sum{display:block}.sum span{display:block;margin-top:4px}
+    }
+    @media(max-width:350px){
+      body{font-size:13px}.topbar{padding-left:12px;padding-right:12px}.brand span{display:none}
+      .chapter{padding:23px 12px}.chapter-head{margin-bottom:11px}h1,h2{font-size:32px}.lede{font-size:19px}.essence-copy p{font-size:12px}.pipeline{padding:12px 13px;font-size:11px}
+      .gate{grid-template-columns:82px minmax(0,1fr);gap:6px}
+      .thresholds{gap:3px}.threshold{padding:5px 4px;font-size:8.2px}
+      .next-card{grid-template-columns:76px minmax(0,1fr);gap:9px;padding:13px 11px}.next-meta b{font-size:25px}.consistency-note{padding:10px 11px;font-size:9.5px}
+    }
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+    @media print{.topbar{position:static}.chapter{break-inside:auto}.full-link{display:none}body{background:white}}
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#esencja">Przejdź do skrótu</a>
+  <header class="topbar">
+    <a class="brand" href="#esencja"><b>Pathway</b><span>plan w 5 minut</span></a>
+    <nav class="topnav" aria-label="Skrót planu">
+      <a href="#esencja">Esencja</a>
+      <a href="#szanse">Szanse</a>
+      <a href="#teraz">Teraz</a>
+      <a class="full" href="index.html">Pełny plan</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="esencja" class="chapter" aria-labelledby="esencja-title">
+      <header class="chapter-head">
+        <span class="chapter-no" aria-hidden="true">01</span>
+        <div><p class="eyebrow">Esencja</p><h1 id="esencja-title">Życie jako <em>prawdziwa mapa.</em></h1></div>
+        <a class="full-link" href="index.html#pathway-founder-brief">Pełny plan · produkt</a>
+      </header>
+      <p class="lede">Pathway zamienia ważne cele w trasy na prawdziwych ulicach Twojej okolicy i zawsze pokazuje następny mały ruch.</p>
+      <div class="essence-copy">
+        <p><strong>Dziś działa klikalny demonstrator Carlstadt:</strong> realny OSM i graf ulic, trzy drogi, klikalne ukończone milestone’y, Focus, Progress, Archive oraz dwukrokowy kreator czterech jawnych szablonów bez udawania AI. To nadal jedna przygotowana instancja.</p>
+        <p><strong>Demo produktowe</strong> ma pozwolić wybrać jedno z 4–6 przygotowanych miast USA; <strong>pełna wersja</strong> przyjmie miasto, ZIP, adres albo jednorazową przybliżoną lokalizację i zbuduje własną okolicę automatycznie.</p>
+      </div>
+      <p class="pipeline"><b>Model dojścia</b>Najpierw potwierdzić problem i powrót D7. Dopiero po G3: lokalizacja → geokodowanie → OSM → graf ulic → routing → Urban Nocturne → cache i QA. Jeśli G4 nie przejdzie na 5/5 miast bez ręcznej korekty, alfa zostaje przy przygotowanym katalogu.</p>
+    </section>
+
+    <section id="szanse" class="chapter" aria-labelledby="szanse-title">
+      <header class="chapter-head">
+        <span class="chapter-no" aria-hidden="true">02</span>
+        <div><p class="eyebrow">Szanse na sukces — uczciwie</p><h2 id="szanse-title">Nie procent. <em>Dowody.</em></h2></div>
+        <a class="full-link" href="index.html#pathway-walidacja">Pełny plan · bramki</a>
+      </header>
+      <p class="lede">Pomysł ma sens, ale tylko wtedy, gdy mapa przestanie być efektem „wow” i zacznie pomagać ludziom wracać oraz kończyć realne ruchy.</p>
+      <div class="honest-grid">
+        <article class="honest-card"><h3>Co może go zabić</h3><ul><li>po D7–D30 użytkownik wraca do listy albo nie wraca wcale;</li><li>habit-trackery są liczne, więc sam ładny interfejs nie wystarczy;</li><li>wykonanie techniczne skupia się na jednym founderze, mimo dwuosobowego zespołu;</li><li>pipeline map dodaje 1,4 tys. USD i może nadal wymagać ręcznej korekty.</li></ul></article>
+        <article class="honest-card"><h3>Co realnie pomaga</h3><ul><li>prawdziwa okolica jest wyraźnym wyróżnikiem, nie kolejną listą nawyków;</li><li>działające demo usuwa ryzyko czysto prezentacyjnej koncepcji;</li><li>pierwszy wydatek to 360 USD, nie cały budżet produktu;</li><li>każda kolejna transza otwiera się dopiero po bramce.</li></ul></article>
+      </div>
+      <p class="boundary"><b>Warunek brzegowy:</b> plan ma sens, jeśli G1 potwierdzi problem i lokalność, G3b pokaże powrót co najmniej 4 z 8 osób, a G4 zbuduje 5 z 5 pakietów miast bez ręcznej korekty. Dzisiaj projekt jest <strong>przed G1 — nie ma jeszcze wyniku „DALEJ”.</strong></p>
+      <details class="gate-details">
+        <summary>Wszystkie 9 bramek <span>STOP · POPRAW · DALEJ</span></summary>
+        <div class="gates" aria-label="Bramki STOP, POPRAW, DALEJ">
+        <article class="gate"><div class="gate-name"><b>G1 · Problem</b><span>12 rozmów</span></div><div class="thresholds"><div class="threshold stop"><b>STOP</b>≤4/12</div><div class="threshold repair"><b>POPRAW</b>5–6/12 lub tylko podsegment</div><div class="threshold go"><b>DALEJ</b>≥7 problem, ≥5 obejście + location input</div></div></article>
+        <article class="gate"><div class="gate-name"><b>G2 · Mapa</b><span>12 testów</span></div><div class="thresholds"><div class="threshold stop"><b>STOP</b>≤7/12 rozumie</div><div class="threshold repair"><b>POPRAW</b>8–9/12 lub &gt;20% wolniej</div><div class="threshold go"><b>DALEJ</b>≥10/12, ≤20% wolniej, attribution</div></div></article>
+        <article class="gate"><div class="gate-name"><b>G2b · Szablony</b><span>10 dróg</span></div><div class="thresholds"><div class="threshold stop"><b>STOP</b>≤4/10 lub P0</div><div class="threshold repair"><b>POPRAW</b>5–6/10</div><div class="threshold go"><b>DALEJ</b>≥7/10 na min. 4/5, bez P0</div></div></article>
+        <article class="gate"><div class="gate-name"><b>G3 · Ruch</b><span>8 osób</span></div><div class="thresholds"><div class="threshold stop"><b>STOP</b>≤3/8 kończy</div><div class="threshold repair"><b>POPRAW</b>4/8 lub problem wiarygodności</div><div class="threshold go"><b>DALEJ</b>≥5/8, mapa nie blokuje</div></div></article>
+        <article class="gate"><div class="gate-name"><b>G3b · Powrót</b><span>D7</span></div><div class="thresholds"><div class="threshold stop"><b>STOP</b>≤1/8 wraca</div><div class="threshold repair"><b>POPRAW</b>2–3/8</div><div class="threshold go"><b>DALEJ</b>≥4/8, bez P0/P1</div></div></article>
+        <article class="gate"><div class="gate-name"><b>G4 · Mapy</b><span>5 miast</span></div><div class="thresholds"><div class="threshold stop"><b>STOP</b>&lt;4/5 lub ręczna kalibracja</div><div class="threshold repair"><b>POPRAW</b>4/5 lub tylko katalog</div><div class="threshold go"><b>DALEJ</b>5/5 bez korekty + graf, fallback, privacy</div></div></article>
+        <article class="gate"><div class="gate-name"><b>G5 · Alfa</b><span>aktywacja</span></div><div class="thresholds"><div class="threshold stop"><b>STOP</b>&lt;40% lub P0</div><div class="threshold repair"><b>POPRAW</b>40–49% lub map build &lt;95%</div><div class="threshold go"><b>DALEJ</b>≥50%, akceptacja ≥65%, map ≥95%</div></div></article>
+        <article class="gate"><div class="gate-name"><b>G6 · Beta</b><span>W4</span></div><div class="thresholds"><div class="threshold stop"><b>STOP</b>&lt;25% lub mapa ponad limit</div><div class="threshold repair"><b>POPRAW</b>25–34% lub cross-city 90–94%</div><div class="threshold go"><b>DALEJ</b>≥35%, cross-city ≥95%</div></div></article>
+          <article class="gate"><div class="gate-name"><b>G6b · Płatność</b><span>realny zakup</span></div><div class="thresholds"><div class="threshold stop"><b>STOP</b>&lt;5%</div><div class="threshold repair"><b>POPRAW</b>5–7,9%</div><div class="threshold go"><b>DALEJ</b>≥8% kupuje lub wpłaca depozyt</div></div></article>
+        </div>
+      </details>
+    </section>
+
+    <section id="teraz" class="chapter" aria-labelledby="teraz-title">
+      <header class="chapter-head">
+        <span class="chapter-no" aria-hidden="true">03</span>
+        <div><p class="eyebrow">Co zrobić teraz — następny krok</p><h2 id="teraz-title">Zacznij od <em>jednej decyzji.</em></h2></div>
+        <a class="full-link" href="index.html#pathway-dzialania">Pełny plan · działania</a>
+      </header>
+      <p class="lede">W poniedziałek rano nie buduj kolejnej funkcji. Zamknij Etap 0 i uruchom badanie problemu.</p>
+      <article class="next-card">
+        <div class="next-meta"><span>Termin w planie</span><b>Dziś</b><span>2 h · 0 USD cash</span></div>
+        <div class="next-copy"><h3>Podpiszcie wspólną decyzję o produkcie.</h3><p>Prawdziwa mapa jest rdzeniem; Carlstadt jest proofem; demo ma katalog miast; pełna wersja własną okolicę; bez śledzenia lokalizacji w tle.</p><p class="done"><strong>Zrobione, gdy:</strong> istnieje jedna wspólna wersja decyzji.</p></div>
+      </article>
+      <div class="two-weeks">
+        <h3>Następne dwa tygodnie</h3>
+        <ol class="action-list">
+          <li><span class="n">1</span><time>Dziś</time><p><b>Podzielcie role</b>Badania/pomiar: Founder 1. Prototyp/wykonanie: Founder 2.</p><span class="cost">1 h · 0 USD</span></li>
+          <li><span class="n">2</span><time>24 h</time><p><b>Rejestr założeń</b>Status: fakt, hipoteza, decyzja albo dowód.</p><span class="cost">2 h · 0 USD</span></li>
+          <li><span class="n">3</span><time>48 h</time><p><b>12 zaproszeń + 3 obietnice</b>Screener: 5 h. Warianty obietnicy: 6 h.</p><span class="cost">11 h · 0 USD teraz</span></li>
+          <li><span class="n">4</span><time>72 h</time><p><b>6 ekranów + safety</b>Flow lokalizacji: 18–30 h. Checklista: 6 h.</p><span class="cost">24–36 h · 0 USD</span></li>
+          <li><span class="n">5</span><time>Tydz. 2</time><p><b>12 rozmów + G1</b>Rozmowy: 18–24 h. Decyzja: 2 h.</p><span class="cost">20–26 h · 360 USD</span></li>
+        </ol>
+        <p class="sum"><b>Razem z krokiem „Dziś”: 60–78 h pracy founderów.</b><span>Gotówka: 12 × 30 USD = 360 USD.</span></p>
+      </div>
+      <p class="consistency-note"><b>Jawna niejasność pełnego planu:</b> działania mają terminy względne („Dziś”, „24 h”, „Tydz. 2”), bez daty kalendarzowej — skrót ich nie dopowiada. Ponadto część planu podaje limit Walidacji V1 1,5 tys. USD, a dwie tabele 1,8 tys. USD; dlatego skrót używa wyłącznie bezspornej, otwartej teraz kwoty 360 USD i nie poprawia tej rozbieżności po cichu.</p>
+    </section>
+  </main>
+</body>
+</html>

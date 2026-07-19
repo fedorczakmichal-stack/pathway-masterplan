@@ -1,19 +1,26 @@
 {
   "project": "Pathway Living Map",
-  "publishedAt": "2026-07-19T23:50:00+02:00",
+  "publishedAt": "2026-07-20T00:23:51+02:00",
   "versions": {
     "web": {
       "path": "/index.html",
-      "sha256": "41a5d4bfa90c243b5da2dbe33305d570721ef49d2563e4d7b684a7f2a1fc16e4",
+      "sha256": "98faf31c9da1937d5d8d190dd7c151dc2bf9f9238f5391765e433c76e0ea38b5",
       "assets": "/assets/asset-manifest.json",
       "manifestSha256": "ecf06c0e67f45324e3a86465c3b929835bf969213b8b0a998a84d047283a036c",
       "assetCount": 12
     },
+    "short": {
+      "path": "/skrot.html",
+      "sha256": "f1f327f1e2bb4546985f45feeb21536268fb4a4d33ccb4bde5396ea39e2d6118",
+      "sections": 3,
+      "readingTimeMinutes": 5
+    },
     "offline": {
       "path": "/offline/Pathway_Implementation_Masterplan.html",
       "download": "/offline/Pathway_Implementation_Masterplan_OFFLINE.zip",
-      "sha256": "f952c0c63fa83a16cd053c808b3ae6207b245b76e40e3f0c94f29b6727023407",
-      "downloadSha256": "38c5795035b08db52847f991b75bc4f9fa058f2cfa00a1c8479dd10118fa396d"
+      "sha256": "9fb5a896fd731d9fe29ec6210e0f173a81037f4647eec511e3d5282cc8330a79",
+      "downloadSha256": "774bb7664a869b9bc2f713edebfae37ffa9c384ce72b54f35cba84d1a59d33e6",
+      "embeddedShortcutSections": 3
     },
     "currentProductVisuals": {
       "hero": {
