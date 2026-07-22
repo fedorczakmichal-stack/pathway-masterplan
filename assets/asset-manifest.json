@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T23:50:00+02:00",
+  "generatedAt": "2026-07-22T16:30:00+02:00",
   "source": "offline/Pathway_Implementation_Masterplan.html",
   "assets": [
     {
@@ -21,58 +21,58 @@
       "sha256": "e507eb37a4d16971ce6083a3a42b937820e45e228d5bd9615024c4b89d51940b"
     },
     {
-      "filename": "285efaf76374bdcc0633.png",
-      "mime": "image/png",
-      "bytes": 177157,
-      "sha256": "285efaf76374bdcc0633d16709145d25c1909f6cb6052accee284fabb37daee1"
+      "filename": "37b81508a4b3d530eeba.jpg",
+      "mime": "image/jpeg",
+      "bytes": 271775,
+      "sha256": "37b81508a4b3d530eeba85baac4abc3869c7e1c8decb8636ea1bc34f339b234c"
     },
     {
-      "filename": "b5b55458e0f2a926bec4.png",
+      "filename": "9bd3d42538a55e1e0b1b.png",
       "mime": "image/png",
-      "bytes": 56194,
-      "sha256": "b5b55458e0f2a926bec4e94316ce8db1c10645bd999b6b23f13d7a0907539b03"
+      "bytes": 38501,
+      "sha256": "9bd3d42538a55e1e0b1be4abd466fe4596a52847b3eaa9003cc9171d5900d0e7"
     },
     {
-      "filename": "e10bc17a4e22e31afc1e.png",
+      "filename": "4519a18c4992478dab90.png",
       "mime": "image/png",
-      "bytes": 57549,
-      "sha256": "e10bc17a4e22e31afc1e18157d5d60d045edcd41585d154c4b34e69197a76cdc"
+      "bytes": 23375,
+      "sha256": "4519a18c4992478dab9007d83cb77b345218145471666cac69458ae6ebf51af2"
     },
     {
-      "filename": "0044f78fa23ea4d5395f.png",
+      "filename": "d10177d5c9eaf86e5263.png",
       "mime": "image/png",
-      "bytes": 39830,
-      "sha256": "0044f78fa23ea4d5395f77e5ab6355bc2eac829cbd05782d3a7f6efa05f29310"
+      "bytes": 27032,
+      "sha256": "d10177d5c9eaf86e526366c0fb571d02b07d7dd0f4d6255e418cd013b9856cbb"
     },
     {
-      "filename": "f0b8f7359c84d5062cca.png",
+      "filename": "142de25c080d68de1ee6.png",
       "mime": "image/png",
-      "bytes": 33152,
-      "sha256": "f0b8f7359c84d5062cca46f537a2881580bc20c1cb968ef5d0a810963d62900e"
+      "bytes": 24342,
+      "sha256": "142de25c080d68de1ee697d5722957262935ebc2bd2582437ca51d9ecfa34df2"
     },
     {
-      "filename": "04a4055a88a35ac64817.png",
+      "filename": "d9a15ea67b4d39ed93b7.png",
       "mime": "image/png",
-      "bytes": 38797,
-      "sha256": "04a4055a88a35ac6481751c21af6a203d7502039bd9a44210f116e8345835f70"
+      "bytes": 44368,
+      "sha256": "d9a15ea67b4d39ed93b7021ae8363b309c2b4890fe349f7d285681e0b5bf9d7f"
     },
     {
-      "filename": "c25c48d523cbc23483f0.png",
+      "filename": "ce144260c37afe51e4f9.png",
       "mime": "image/png",
-      "bytes": 41451,
-      "sha256": "c25c48d523cbc23483f054d3b96254abff283836931f8b08593738db5399d558"
+      "bytes": 31828,
+      "sha256": "ce144260c37afe51e4f9ca6239c7b3cc851eebbc24e8089dd397c611d76a0494"
     },
     {
-      "filename": "e4ce1fd2086704c62539.png",
+      "filename": "decdcd99b68dccc890d2.png",
       "mime": "image/png",
-      "bytes": 33894,
-      "sha256": "e4ce1fd2086704c625396e08b279231548f21c9c1ee305cbfb8656a391041142"
+      "bytes": 56889,
+      "sha256": "decdcd99b68dccc890d2d32e21feea2e851dc34524839b2bf16e44d6289a525c"
     },
     {
-      "filename": "65552a28884a9ea080e2.png",
+      "filename": "bfe1fd3df464a0e308c6.png",
       "mime": "image/png",
-      "bytes": 32622,
-      "sha256": "65552a28884a9ea080e2986fbd800c5d21aae9f5fa7ad43b9ae9678e9ff6ca13"
+      "bytes": 25229,
+      "sha256": "bfe1fd3df464a0e308c679c062878db5f57e2617fbc942bc283f5a83899de388"
     }
   ]
 }

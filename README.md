@@ -10,6 +10,7 @@ Strona: https://fedorczakmichal-stack.github.io/pathway-masterplan/
 - `skrot.html` — samodzielny skrót planu w dokładnie trzech częściach, do przeczytania w około 5 minut.
 - `offline/Pathway_Implementation_Masterplan.html` — aktualna, w pełni samodzielna wersja offline.
 - `offline/Pathway_Implementation_Masterplan_OFFLINE.zip` — wersja offline do pobrania.
+- `archive/2026-07-22-before-entry-guide-sync/Pathway_Implementation_Masterplan.html` — wersja bezpośrednio sprzed synchronizacji z wejściem od zera, rozdzieleniem własnej mapy i przykładu Mai, przewodnikiem 1/4, jednym centralnym `+` oraz kompaktowym Next Move.
 - `archive/2026-07-19-before-real-map-replan/Pathway_Implementation_Masterplan.html` — wersja bezpośrednio sprzed przebudowy planu pod prawdziwą mapę OSM, katalog miast demo, automatyczny MapPackage własnej okolicy oraz korektę kosztów pracy mapowej.
 - `archive/2026-07-19-before-app-redesign-sync/Pathway_Implementation_Masterplan.html` — wersja bezpośrednio sprzed synchronizacji masterplanu z aktualną aplikacją Carlstadt, grafem ulic, klikalnymi milestone'ami i dwukrokowym kreatorem.
 - `archive/2026-07-17-before-claude-max-budget/Pathway_Implementation_Masterplan.html` — wersja bezpośrednio sprzed przeliczenia całego planu pod Claude Max 5x + Claude Pro i szczegółowe pakiety QA.
@@ -24,11 +25,12 @@ Wersje WEB i offline pokazują tę samą treść pełnego planu. WEB prowadzi z 
 
 ## Kontrola zgodności
 
-- aktualna WEB: `98faf31c9da1937d5d8d190dd7c151dc2bf9f9238f5391765e433c76e0ea38b5`
-- skrót WEB: `f1f327f1e2bb4546985f45feeb21536268fb4a4d33ccb4bde5396ea39e2d6118`
-- aktualna offline: `9fb5a896fd731d9fe29ec6210e0f173a81037f4647eec511e3d5282cc8330a79`
-- ZIP offline: `774bb7664a869b9bc2f713edebfae37ffa9c384ce72b54f35cba84d1a59d33e6`
-- manifest zasobów WEB: `ecf06c0e67f45324e3a86465c3b929835bf969213b8b0a998a84d047283a036c` — zawiera SHA-256 każdego fontu, logo, obrazu hero i ośmiu aktualnych ekranów aplikacji;
+- aktualna WEB: `677d0db3041ddc6d5890a001f0e4a7a7db2c000a7b26bcdf655d5117bf4161bf`
+- skrót WEB: `699ea45701548a67be04f8d6b4f641241de397a0ed6820dbd8f59667ba706bd3`
+- aktualna offline: `8855088c0c1ed1e2900702c784d853356188867ad8051fcfd6c3e22d39a2490e`
+- ZIP offline: `8f8453321b4b4661207f446ec1a37f8ebb336dfb39d6688a3caac56019c66b64`
+- manifest zasobów WEB: `8bf691728e1dd21e7c96de0a2273fef8ca1b62253331253c2cf1c67cf789d5b7` — zawiera SHA-256 każdego fontu, logo, obrazu hero i ośmiu aktualnych ekranów aplikacji;
+- wersja sprzed synchronizacji wejścia i przewodnika: `98faf31c9da1937d5d8d190dd7c151dc2bf9f9238f5391765e433c76e0ea38b5`
 - wersja sprzed przebudowy pod prawdziwą mapę: `ce1f875a5d0ff31a6f2b7dd8c3c976411b5e5a3140292d46127f0359ebc45c17`
 - wersja sprzed synchronizacji z aktualną aplikacją: `9f215ac0ee25d734af09b1d4696cccfafd294de5dddc816e9064ae81926b27b4`
 - wersja sprzed przeliczenia Claude Max i QA: `a894008efb5d76d1e8d0c4ca646db4fe76407ee4a3563ef9ebd3d09d5df8a98c`
@@ -39,19 +41,20 @@ Wersje WEB i offline pokazują tę samą treść pełnego planu. WEB prowadzi z 
 - wersja sprzed poprawek wyrównania: `c19869da6aa336c5ef05dfc000a393d9a0212ec71629f9f3595eeac7fddadb4b`
 - archiwum Seasons: `03fba2c00e3b99e0b3acb8c3ab1450f55cf74fc50d56f08eba7ae9afd3a63a70`
 
-## Ostatnia kontrola jakości
+## Ostatnia kontrola jakości — 22 lipca 2026
 
 - plan rozdziela trzy poziomy produktu: działający wariant Carlstadt, planowany katalog przygotowanych miast USA oraz pełną mapę własnej okolicy;
 - opisano automatyczny pipeline `lokalizacja → geokodowanie → OSM → graf ulic → Maya i routing → Urban Nocturne → cache, manifest i QA`, bez ręcznego redrawu kolejnych miast;
 - etap pilotażowy przed G4 korzysta z Carlstadt i lekkich prototypów OSM ze wspólnego stylu — bez artystycznego redrawu i ręcznej kalibracji rastra;
 - payload czytnika i semantyczny fallback obejmują 6 doświadczeń MVP, 18 ekranów pierwszej wersji, 56 przypadków QA, 62 bloki, 28 tabel, 8 wykresów i 3 karty metryk;
-- hero 1600×980 oraz osiem ekranów 390×844 pochodzą z aktualnej aplikacji Carlstadt; zachowują proporcje i nie są przycinane;
+- hero 1600×980 oraz osiem świeżych ekranów 390×844 pochodzą z builda Carlstadt z 22 lipca; pokazują start od zera, wybór Carlstadt, nieutrwalany podgląd lokalizacji, oba kroki kreatora, transparentny podgląd trasy, przewodnik 1/4, jeden centralny `+`, kompaktowy Next Move i Focus;
 - `skrot.html` ma dokładnie trzy części: Esencja, Szanse na sukces oraz Co zrobić teraz; przy szerokościach 320–390 px zajmuje około 3,1 ekranu 844 px, a pełne progi dziewięciu bramek pozostają dostępne w rozwijanym bloku;
 - widoki 320, 375, 390, 430 i 1440 px pełnego WEB, skrótu oraz osadzonego skrótu offline nie mają poziomego przepełnienia; tekst i karty nie nachodzą na siebie, a cele linków skrótu mają co najmniej 44 px wysokości;
 - link „Plan w 5 minut” z hero WEB otwiera `skrot.html`, wersja offline otwiera trzyczęściowy blok osadzony, a linki powrotne prowadzą do istniejących kotwic produktu, walidacji i działań;
 - 18 stabilnych odnośników spisu treści, skróty Founder Brief, bezpośrednie adresy z `#`, cofanie/do przodu i aktywna sekcja wskazują właściwe miejsca;
 - nawigacja pozostaje otwarta jako pełny boczny spis na desktopie, a zwija się w jednoznaczny pasek „Nawigacja” dopiero przy szerokości 1180 px i mniejszej;
-- bieżące funkcje demonstratora są oddzielone od planowanych ekranów wyboru miasta i własnej lokalizacji; biblioteka czterech szablonów bez udawania AI jest oznaczona jako zrealizowana;
+- bieżący demonstrator zaczyna od zera i oddziela własną mapę od przykładu Mai; pokazuje pięć miast, ale tylko Carlstadt jest grywalne, a pole własnej lokalizacji niczego nie wysyła, nie zapisuje ani nie geokoduje;
+- grywalne pakiety kolejnych miast oraz automatyczne wygenerowanie mapy własnej okolicy pozostają oddzielone od gotowego demo; biblioteka czterech szablonów bez udawania AI jest oznaczona jako zrealizowana;
 - lokalizacja jest minimalizowana: bez śledzenia w tle, bez adresu domu w koncie i bez surowych współrzędnych w analityce; opisano zgodę, retencję, eksport, usunięcie, [attribution OSM/ODbL](https://www.openstreetmap.org/copyright) oraz ograniczenia [Nominatim](https://operations.osmfoundation.org/policies/nominatim/) i [standardowego serwera kafli](https://operations.osmfoundation.org/policies/tiles/);
 - główna drabina finansowa pozostaje bez zmian: 360 USD teraz, 5,6 tys. USD do alfy, 9,6 tys. USD do bety, 10,8 tys. USD do startu, 11,2 tys. USD planu oraz 12,7 tys. USD koperty z rezerwą;
 - podczas destylacji wykryto otwartą rozbieżność pełnego planu: hero, opis wykonawczy i tabela płatności podają 1,5 tys. USD Walidacji V1, natomiast `budget_summary_table` i `budget_phase_table` podają 1,8 tys. USD; w tym zadaniu nie poprawiono jej po cichu, a skrót używa wyłącznie bezspornej kwoty 360 USD otwartej teraz;

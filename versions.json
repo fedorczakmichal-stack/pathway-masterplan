@@ -1,42 +1,46 @@
 {
   "project": "Pathway Living Map",
-  "publishedAt": "2026-07-20T00:23:51+02:00",
+  "publishedAt": "2026-07-22T16:30:00+02:00",
   "versions": {
     "web": {
       "path": "/index.html",
-      "sha256": "98faf31c9da1937d5d8d190dd7c151dc2bf9f9238f5391765e433c76e0ea38b5",
+      "sha256": "677d0db3041ddc6d5890a001f0e4a7a7db2c000a7b26bcdf655d5117bf4161bf",
       "assets": "/assets/asset-manifest.json",
-      "manifestSha256": "ecf06c0e67f45324e3a86465c3b929835bf969213b8b0a998a84d047283a036c",
+      "manifestSha256": "8bf691728e1dd21e7c96de0a2273fef8ca1b62253331253c2cf1c67cf789d5b7",
       "assetCount": 12
     },
     "short": {
       "path": "/skrot.html",
-      "sha256": "f1f327f1e2bb4546985f45feeb21536268fb4a4d33ccb4bde5396ea39e2d6118",
+      "sha256": "699ea45701548a67be04f8d6b4f641241de397a0ed6820dbd8f59667ba706bd3",
       "sections": 3,
       "readingTimeMinutes": 5
     },
     "offline": {
       "path": "/offline/Pathway_Implementation_Masterplan.html",
       "download": "/offline/Pathway_Implementation_Masterplan_OFFLINE.zip",
-      "sha256": "9fb5a896fd731d9fe29ec6210e0f173a81037f4647eec511e3d5282cc8330a79",
-      "downloadSha256": "774bb7664a869b9bc2f713edebfae37ffa9c384ce72b54f35cba84d1a59d33e6",
+      "sha256": "8855088c0c1ed1e2900702c784d853356188867ad8051fcfd6c3e22d39a2490e",
+      "downloadSha256": "8f8453321b4b4661207f446ec1a37f8ebb336dfb39d6688a3caac56019c66b64",
       "embeddedShortcutSections": 3
     },
     "currentProductVisuals": {
       "hero": {
-        "path": "/assets/285efaf76374bdcc0633.png",
-        "sha256": "285efaf76374bdcc0633d16709145d25c1909f6cb6052accee284fabb37daee1"
+        "path": "/assets/37b81508a4b3d530eeba.jpg",
+        "sha256": "37b81508a4b3d530eeba85baac4abc3869c7e1c8decb8636ea1bc34f339b234c"
       },
       "screens390x844": [
-        { "path": "/assets/b5b55458e0f2a926bec4.png", "sha256": "b5b55458e0f2a926bec4e94316ce8db1c10645bd999b6b23f13d7a0907539b03" },
-        { "path": "/assets/e10bc17a4e22e31afc1e.png", "sha256": "e10bc17a4e22e31afc1e18157d5d60d045edcd41585d154c4b34e69197a76cdc" },
-        { "path": "/assets/0044f78fa23ea4d5395f.png", "sha256": "0044f78fa23ea4d5395f77e5ab6355bc2eac829cbd05782d3a7f6efa05f29310" },
-        { "path": "/assets/f0b8f7359c84d5062cca.png", "sha256": "f0b8f7359c84d5062cca46f537a2881580bc20c1cb968ef5d0a810963d62900e" },
-        { "path": "/assets/04a4055a88a35ac64817.png", "sha256": "04a4055a88a35ac6481751c21af6a203d7502039bd9a44210f116e8345835f70" },
-        { "path": "/assets/c25c48d523cbc23483f0.png", "sha256": "c25c48d523cbc23483f054d3b96254abff283836931f8b08593738db5399d558" },
-        { "path": "/assets/e4ce1fd2086704c62539.png", "sha256": "e4ce1fd2086704c625396e08b279231548f21c9c1ee305cbfb8656a391041142" },
-        { "path": "/assets/65552a28884a9ea080e2.png", "sha256": "65552a28884a9ea080e2986fbd800c5d21aae9f5fa7ad43b9ae9678e9ff6ca13" }
+        { "path": "/assets/9bd3d42538a55e1e0b1b.png", "sha256": "9bd3d42538a55e1e0b1be4abd466fe4596a52847b3eaa9003cc9171d5900d0e7" },
+        { "path": "/assets/4519a18c4992478dab90.png", "sha256": "4519a18c4992478dab9007d83cb77b345218145471666cac69458ae6ebf51af2" },
+        { "path": "/assets/d10177d5c9eaf86e5263.png", "sha256": "d10177d5c9eaf86e526366c0fb571d02b07d7dd0f4d6255e418cd013b9856cbb" },
+        { "path": "/assets/142de25c080d68de1ee6.png", "sha256": "142de25c080d68de1ee697d5722957262935ebc2bd2582437ca51d9ecfa34df2" },
+        { "path": "/assets/d9a15ea67b4d39ed93b7.png", "sha256": "d9a15ea67b4d39ed93b7021ae8363b309c2b4890fe349f7d285681e0b5bf9d7f" },
+        { "path": "/assets/ce144260c37afe51e4f9.png", "sha256": "ce144260c37afe51e4f9ca6239c7b3cc851eebbc24e8089dd397c611d76a0494" },
+        { "path": "/assets/decdcd99b68dccc890d2.png", "sha256": "decdcd99b68dccc890d2d32e21feea2e851dc34524839b2bf16e44d6289a525c" },
+        { "path": "/assets/bfe1fd3df464a0e308c6.png", "sha256": "bfe1fd3df464a0e308c679c062878db5f57e2617fbc942bc283f5a83899de388" }
       ]
+    },
+    "beforeEntryGuideSync": {
+      "path": "/archive/2026-07-22-before-entry-guide-sync/Pathway_Implementation_Masterplan.html",
+      "sha256": "98faf31c9da1937d5d8d190dd7c151dc2bf9f9238f5391765e433c76e0ea38b5"
     },
     "beforeRealMapReplan": {
       "path": "/archive/2026-07-19-before-real-map-replan/Pathway_Implementation_Masterplan.html",
