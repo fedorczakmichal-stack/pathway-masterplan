@@ -1,25 +1,25 @@
 {
   "project": "Pathway Living Map",
-  "publishedAt": "2026-07-22T16:30:00+02:00",
+  "publishedAt": "2026-07-22T21:33:00+02:00",
   "versions": {
     "web": {
       "path": "/index.html",
-      "sha256": "677d0db3041ddc6d5890a001f0e4a7a7db2c000a7b26bcdf655d5117bf4161bf",
+      "sha256": "1610bc43a62081281324be1eb61a1a13b3c6f365b0ed77097853c0fc33c6e992",
       "assets": "/assets/asset-manifest.json",
       "manifestSha256": "8bf691728e1dd21e7c96de0a2273fef8ca1b62253331253c2cf1c67cf789d5b7",
       "assetCount": 12
     },
     "short": {
       "path": "/skrot.html",
-      "sha256": "699ea45701548a67be04f8d6b4f641241de397a0ed6820dbd8f59667ba706bd3",
+      "sha256": "77c8dfd9adb611353bbb65d064e0422d70483b512fdf6385877788506cf2dff5",
       "sections": 3,
       "readingTimeMinutes": 5
     },
     "offline": {
       "path": "/offline/Pathway_Implementation_Masterplan.html",
       "download": "/offline/Pathway_Implementation_Masterplan_OFFLINE.zip",
-      "sha256": "8855088c0c1ed1e2900702c784d853356188867ad8051fcfd6c3e22d39a2490e",
-      "downloadSha256": "8f8453321b4b4661207f446ec1a37f8ebb336dfb39d6688a3caac56019c66b64",
+      "sha256": "fad91ed90c887b5e674f1ac630497a25914f8eb03a8be610649546a0e20070a1",
+      "downloadSha256": "cc7db694e6b491717dfb22a882bc0766a69eaf92824f31c32d02d0b5be19bdea",
       "embeddedShortcutSections": 3
     },
     "currentProductVisuals": {
@@ -37,6 +37,10 @@
         { "path": "/assets/decdcd99b68dccc890d2.png", "sha256": "decdcd99b68dccc890d2d32e21feea2e851dc34524839b2bf16e44d6289a525c" },
         { "path": "/assets/bfe1fd3df464a0e308c6.png", "sha256": "bfe1fd3df464a0e308c679c062878db5f57e2617fbc942bc283f5a83899de388" }
       ]
+    },
+    "beforeManhattanPipelineProof": {
+      "path": "/archive/2026-07-22-before-manhattan-pipeline-proof/Pathway_Implementation_Masterplan.html",
+      "sha256": "677d0db3041ddc6d5890a001f0e4a7a7db2c000a7b26bcdf655d5117bf4161bf"
     },
     "beforeEntryGuideSync": {
       "path": "/archive/2026-07-22-before-entry-guide-sync/Pathway_Implementation_Masterplan.html",
